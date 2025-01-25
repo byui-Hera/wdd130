@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #547581;
+    --secondary-color: #514663;                   
+    --accent1-color: #4D5382;
+    --accent2-color: #658E9C;
+
+    --heading-font: 'Roboto', sans-serif;
+    --text-font: 'Roboto', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    font-family: var(--text-font);
+    padding: 20px;
+    max-width: 1200px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+
+.hero div {
+    position: relative;
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+} 
+
+.hero p {
+    padding: 0 25px;
+}
+
+.hero article img {
+    width: 20%;
+    float: right;
+    margin: 20px;
+}
+
+
+
+header {
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    
+}
+
+section img {
+    max-width: 100%;
+}
+
+.sociallinks img {
+    width: 40px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+  }
+
+.adventures img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* The following CSS rule removes underlines from all hyperlinks. Do not do this. */
+a {
+    text-decoration: none;
+}
+
