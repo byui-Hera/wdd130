@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale= 1"> 
         <meta name="author" content="Hera Hysi"> 
         <meta name="description" content="Dry Oar Rafting is a whitewater rafting company that offers a variety of trips for all skill levels."> 
-        <title>About us - Dry Oar Rafting</title>   
+        <title>About us - Whitewater Rafting</title> 
         <link rel="stylesheet" href="styles/rafting.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +14,11 @@
 
     <body>
         <header>
-            <nav>
+            <nav class = "navbar">
                 <a href="index.html">
                 <img src="images/logo.jpg" alt="logo" width="200" height="200" /> 
                 </a>
-                <ul>
+                <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li> 
                     <li><a href="trips.html">Trips</a></li>
@@ -33,49 +33,57 @@
                 <article>
                     <h2>Experience the thrill of whitewater rafting!</h2> 
                     <img src="images/article.jpg" alt="article" /> 
-                    <p>Whitewater Rafting is a thrilling and exciting adventure that is perfect for anyone who loves the outdoors. Whether you are an experienced rafter or a beginner, we have the perfect trip for you. Our experienced guides will take you on a journey through some of the most beautiful and challenging rivers in the world. So come join us and experience the thrill of whitewater rafting!</p>
+                    <p>Whitewater Rafting is a thrilling and exciting adventure that is perfect for anyone who loves the outdoors. Whether you are an experienced rafter or a beginner, we have the perfect trip for you. Our experienced guides will take you on a journey through some of the most beautiful and challenging rivers in the world.</p>
+                    <p>At Dry Oar Rafting, we are committed to providing our guests with a safe and enjoyable experience. Our guides are trained professionals who are passionate about whitewater rafting and are dedicated to making sure that you have the trip of a lifetime. So come join us for an unforgettable adventure on the river!</p>
                 </article>
             </div>
             <section>
                     <h2>History</h2>
                     <p>Whitewater Rafting has been around for centuries and has a long and storied history. The sport has its roots in the early 19th century when European explorers first began to navigate the rivers of North America. Since then, whitewater rafting has grown in popularity and is now enjoyed by millions of people around the world. Today, there are hundreds of rivers that are perfect for whitewater rafting, and each one offers a unique and exciting experience. Join us for an unforgettable adventure on the river!</p>
+                    <img src="images/history.jpg" alt="history" width="300" height="200" /> 
             </section>
             <section>
                 <h2>Adventure Awaits You!</h2>
-                <figure>
-                    <img src="images/whitewater-rafting.jpg" alt="rafting" width="300" height="200" />
-                    <figcaption>Whitewater Rafting</figcaption>
-                </figure>   
-                <figure>
-                    <img src="images/colorado-river.jpg" alt="rafting" width="400" height="300" />
-                    <figcaption>Colorado River</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/arkansas-river.jpg" alt="rafting" width="300" height="200" />
-                    <figcaption>Arkansas River</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/snake-river.jpg" alt="rafting" width="300" height="200" />
-                    <figcaption>Snake River</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/salmon-river.jpg" alt="rafting" width="400" height="300" />
-                    <figcaption>Salmon River</figcaption>
-                </figure>
+                <div class="adventure-gallery">
+                    <figure>
+                        <img src="images/whitewater-rafting.jpg" alt="rafting" />
+                        <figcaption>Whitewater Rafting</figcaption>
+                    </figure>   
+                    <figure>
+                        <img src="images/colorado-river.jpg" alt="rafting" />
+                        <figcaption>Colorado River</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/arkansas-river.jpg" alt="rafting" />
+                        <figcaption>Arkansas River</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/snake-river.jpg" alt="rafting" />
+                        <figcaption>Snake River</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/salmon-river.jpg" alt="rafting" />
+                        <figcaption>Salmon River</figcaption>
+                    </figure>
+                </div>
             </section>
         </main>
         <footer>
-            <nav class="sociallinks">
-                <p>&copy; 2025 White Water Rafting | Hera Hysi</p> 
-                <a href="https://www.facebook.com">
-                    <img src="images/facebook.svg" alt="Facebook" width="40" height="40" />
-                </a>
-                <a href="https://www.twitter.com">
-                    <img src="images/twitter.svg" alt="Twitter" width="40" height="40" />
-                </a>
-                <a href="https://www.instagram.com">
-                    <img src="images/instagram.svg" alt="Instagram" width="40" height="40" /> 
-                </a>
+            <nav class="footer">
+                <div class="copyright">
+                    <p>&copy; 2025 Whitewater Rafting | Hera Hysi</p> 
+                </div>
+                <div class="sociallinks">
+                    <a href="https://www.facebook.com">
+                        <img src="images/facebook.svg" alt="Facebook" width="40" height="40" />
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <img src="images/twitter.svg" alt="Twitter" width="40" height="40" />
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <img src="images/instagram.svg" alt="Instagram" width="40" height="40" /> 
+                    </a>
+                </div>
             </nav>
         </footer>
     </body>
