@@ -176,7 +176,6 @@ p {
 nav img {
     width: 64px;
     height: auto;
-    border-radius: #514663;
 }
 
 h1 {
@@ -222,9 +221,7 @@ section img {
 }
 
 img {
-    overflow-clip-margin: content-box;
     overflow: clip;
-    
 }
 
 
@@ -248,7 +245,6 @@ button {
     border: none;
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
-
 }
 
 .adventure-gallery {
@@ -261,10 +257,6 @@ button {
 
 .adventure-gallery img {
     width: 150px;
-    
-
-
-
 }
 
 section img {
@@ -317,7 +309,6 @@ section img {
     height: auto;
     margin: 0 10px;
     margin-left: 0;
-    nav-left: 0; 
     background-color: var(--accent1-color);
     padding: 5px;
 }
