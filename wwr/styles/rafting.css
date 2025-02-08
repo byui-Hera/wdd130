@@ -115,12 +115,10 @@ main {
     width: 95%;
     height: 70%; 
     padding-bottom: 0ch;
-
     border-radius: 20px;
     unicode-bidi: isolate;
     overflow: clip;
     border-radius: 10px;
-    overflow-clip-margin: content-box;
 } 
 
 
