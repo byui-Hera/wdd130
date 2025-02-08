@@ -231,14 +231,6 @@ section {
     margin: 1rem auto;
 }
 
-.section .history-gallery img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px 0;
-    border-radius: 10px;
-    overflow-clip-margin: content-box;
-}
-
 img {
     overflow: clip;
 }
