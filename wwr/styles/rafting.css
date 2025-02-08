@@ -139,18 +139,18 @@ main {
 
 
 .hero article {
-        position: absolute;
-        top: 70%;
-        left: 5%;
-        width: 85%;
-        height: auto;
-        background-color: rgba(0, 0, 0, 0.6);
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        overflow-clip-margin: content-box;
-        margin-top: -200px;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 85%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow-clip-margin: content-box;
+    margin-top: -200px;
 
 }
 
@@ -231,10 +231,12 @@ section {
     margin: 1rem auto;
 }
 
-section img {
+.section .history-gallery img {
     max-width: 100%;
     height: auto;
     margin: 10px 0;
+    border-radius: 10px;
+    overflow-clip-margin: content-box;
 }
 
 img {
@@ -263,8 +265,6 @@ button {
     transition: background-color 0.3s, color 0.3s;
 }
 
-
-
 .adventure-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -282,30 +282,6 @@ section img {
     height: auto;
 }
 
-
-.history-gallery {
-    display: flex;
-    grid-template-columns: 1fr;
-    text-align: center;
-    justify-content: center;
-}
-
-.history-gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow-clip-margin: content-box;
-    margin: 0 auto;
-    overflow: clip;
-    
-}
-
-.history_gallery img container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
   
 .adventures {
