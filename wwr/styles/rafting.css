@@ -253,6 +253,21 @@ button {
     transition: background-color 0.3s, color 0.3s;
 }
 
+.history-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row;
+    justify-content: center; */
+    /* align-items: center; */
+    /*padding: 20px; */
+}
+
+.history-content div {
+    flex-grow: 1;
+    width: 33%;
+}
+
+
 .adventure-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -269,6 +284,7 @@ section img {
     max-width: 100%;
     height: auto;
 }
+
 
 
   
