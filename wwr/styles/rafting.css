@@ -199,7 +199,7 @@ nav img {
 h1 {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-color);
+    color: black;
     text-align: center;
 }
 
@@ -328,3 +328,34 @@ a {
     text-decoration: none;
 }
 
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery img {
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-info {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.map {
+    display: grid;
+    justify-content: flex-end;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+}
