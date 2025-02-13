@@ -243,14 +243,17 @@ img {
 }
 
 
-button {
+.button {
     background-color: var(--accent2-color);
-    color: white;
+    color: black;
     cursor: pointer;
     padding: 10px 20px;
     border: none;
-    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 10px;
     transition: background-color 0.3s, color 0.3s;
+
 }
 
 .history-content {
