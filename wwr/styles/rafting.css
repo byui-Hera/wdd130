@@ -434,7 +434,7 @@ a {
 
 
 .rafting {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
