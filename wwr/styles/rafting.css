@@ -253,7 +253,6 @@ img {
     font-size: 1rem;
     margin: 10px;
     transition: background-color 0.3s, color 0.3s;
-
 }
 
 .history-content {
@@ -362,3 +361,151 @@ a {
     justify-items: center;
     gap: 20px;
 }
+
+
+.hero-1 div {
+    position: absolute;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.hero-1 img {
+    display: grid;
+    width: 95%;
+    height: 70%; 
+    border-radius: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero-1 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center; 
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: darkmagenta;
+    margin-top: -150px;
+    margin: auto;
+}
+
+
+
+.hero-1 h3 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center; 
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: darkmagenta;
+    margin-top: -150px;
+    margin: auto;
+}
+
+
+.hero-1 button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    text-align: center; 
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -200px;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: var(--secondary-color);
+}
+
+
+.hero-1 button:hover {
+    color: var(--accent1-color);
+    /* Change the color on hover */
+}
+
+
+.rafting {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    padding: 20px;
+
+}
+
+.rafting img {
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.rafting p {
+    color: black;
+    text-align: center;
+}
+
+
+
+.rafting div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    padding: 20px;
+}
+
+.purpose div {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    border-radius: 10px;
+   margin-top: -1200px;
+  
+}
+
+.trips-link button {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.trips-link button {
+    background-color: var(--accent2-color);
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.trips-link button:hover {
+    color: var(--accent1-color);
+    /* Change the color on hover */
+}
+
+
