@@ -120,6 +120,7 @@ main {
     unicode-bidi: isolate;
     overflow: clip;
     border-radius: 10px;
+    margin: 0 auto;
 } 
 
 
