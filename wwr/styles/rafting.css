@@ -502,7 +502,7 @@ a {
     padding: 20px;
 }
 
-.contact button {
+.button-link {
     background-color: var(--accent1-color);
     color: white;
     cursor: pointer;
@@ -514,6 +514,7 @@ a {
     display: grid;
     justify-content: center;
     align-items: center;
+
 
 }
 
