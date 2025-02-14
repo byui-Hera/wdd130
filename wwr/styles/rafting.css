@@ -377,13 +377,12 @@ a {
     display: grid;
     width: 100%;
     height: auto;
-    border-radius: 10px;
     text-align: center;
     justify-content: center;
-    align-items: center;
     margin: auto;
-
 }
+
+
 
 .hero-1 h1 {
     position: absolute;
@@ -397,7 +396,6 @@ a {
     margin-top: -150px;
     margin: auto;
 }
-
 
 
 .hero-1 h3 {
@@ -494,4 +492,71 @@ a {
     /* Change the color on hover */
 }
 
+
+.contact {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contact button {
+    background-color: var(--accent1-color);
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact button:hover {
+    color: var(--accent1-color);
+    /* Change the color on hover */
+}
+
+
+.trip div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+.trip p {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+.trip h3 {
+    color: var(--primary-color);
+    text-align: center;
+    overflow: visible;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+    margin: auto;
+}
+
+.available-trips h2 {
+    color: var(--primary-color);
+    text-align: center;
+    overflow: visible;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+    margin: auto;
+}
 
