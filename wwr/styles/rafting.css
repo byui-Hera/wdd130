@@ -17,6 +17,7 @@ body {
     max-width: 1200px;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    background-color: bisque;
 }
 
 header {
@@ -379,6 +380,7 @@ a {
     border-radius: 10px;
     text-align: center;
     margin: 0 auto;
+    
 }
 
 .hero-1 h1 {
@@ -389,7 +391,7 @@ a {
     justify-content: center;
     transform: translate(-50%, -50%);
     font-size: 3rem;
-    color: darkmagenta;
+    color: black;
     margin-top: -150px;
     margin: auto;
 }
@@ -403,7 +405,7 @@ a {
     text-align: center; 
     transform: translate(-50%, -50%);
     font-size: 2rem;
-    color: darkmagenta;
+    color: purple;
     margin-top: -150px;
     margin: auto;
 }
@@ -424,6 +426,7 @@ a {
     font-size: 1rem;
     transition: background-color 0.3s, color 0.3s;
     background-color: var(--secondary-color);
+    cursor: pointer;
 }
 
 
@@ -435,15 +438,11 @@ a {
 
 .rafting {
     display: grid;
-    flex-wrap: wrap;
-    width: 100%;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 1rem auto;
-    padding: 20px;
+    margin: auto;
 
 }
 
@@ -453,13 +452,6 @@ a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   
 }
-
-.rafting p {
-    color: black;
-    text-align: center;
-}
-
-
 
 .rafting div {
     display: flex;
@@ -474,14 +466,9 @@ a {
     padding: 20px;
 }
 
-.purpose div {
-    display: flex;
-    gap: 10px;
-    position: relative;
-    border-radius: 10px;
-   margin-top: -1200px;
-  
-}
+
+
+
 
 .trips-link button {
     display: grid;
