@@ -374,13 +374,14 @@ a {
 
 .hero-1 img {
     display: grid;
-    width: 95%;
-    height: 70%; 
-    border-radius: 20px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     text-align: center;
-    margin: 0 auto;
-    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
 }
 
 .hero-1 h1 {
@@ -465,9 +466,6 @@ a {
     margin: 1rem auto;
     padding: 20px;
 }
-
-
-
 
 
 .trips-link button {
