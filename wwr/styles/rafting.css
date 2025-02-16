@@ -584,7 +584,7 @@ a {
 }
 
 .available-trips table th {
-    display: flex;
+    display: grid;
     place-items: center; /* Centers content both horizontally and vertically */
     color: black;
     padding: 30px;
@@ -604,7 +604,7 @@ a {
 }
 
 .center-content {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
