@@ -438,11 +438,12 @@ a {
 
 .rafting {
     display: grid;
-    justify-content: center;
-    align-items: center;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: auto;
+    gap: 10px;
+    grid-template-columns: 1fr;
+
 
 }
 
@@ -450,7 +451,6 @@ a {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
 }
 
 .rafting div {
@@ -461,6 +461,8 @@ a {
     box-shadow: 0 2px 4px rosybrown;
     margin: 1rem auto;
 }
+
+
 .newsletter form {
     display: grid;
     justify-content: center;
