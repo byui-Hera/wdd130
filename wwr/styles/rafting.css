@@ -489,7 +489,6 @@ a {
     padding: 20px;
     box-shadow: 0 2px 4px black;
     margin: 1rem auto;
-
 }
 
 
@@ -520,8 +519,6 @@ a {
     box-shadow: 0 2px 4px black;
     padding: 30px;
     margin: auto;
-
-
 }
 
 .trip {
@@ -578,7 +575,7 @@ a {
 
 
 .available-trips table {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     border-radius: 10px;
@@ -587,10 +584,29 @@ a {
 }
 
 .available-trips table th {
+    display: flex;
+    place-items: center; /* Centers content both horizontally and vertically */
     color: black;
     padding: 30px;
-    margin: auto;
-    text-align: center;
     border-radius: 10px;
     box-shadow: 0 2px 4px rosybrown;
+    margin: auto;
 }
+
+.available-trips p {
+    display: grid;
+    place-items: center; /* Centers content both horizontally and vertically */
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rosybrown;
+    margin: auto;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
