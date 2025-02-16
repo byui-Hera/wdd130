@@ -526,7 +526,7 @@ a {
     grid-template-columns: 700px 600px 600px;
     gap: 10px;
     border-radius: 10px;
-    box-shadow: 0 2px 4px black;
+    box-shadow: 0 2px 4px rosybrown;
     padding: 30px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     margin: auto;
