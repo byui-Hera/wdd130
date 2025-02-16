@@ -439,18 +439,17 @@ a {
 .rafting {
     display: grid;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px black;
     margin: auto;
     gap: 10px;
     grid-template-columns: 1fr;
-
-
 }
+
 
 .rafting img {
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rosybrown;
 }
 
 .rafting div {
@@ -468,9 +467,10 @@ a {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    box-shadow: 0 2px 4px rosybrown;
+    box-shadow: 0 2px 4px black;
     margin: 1rem auto;
 }
+
 
 .newsletter input {
     padding: 10px;
@@ -481,40 +481,17 @@ a {
 }
 
 
-.trips-link button {
-    display: grid;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.trips-link button {
-    background-color: var(--accent2-color);
-    color: black;
-    cursor: pointer;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin: 10px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.trips-link button:hover {
-    color: var(--accent1-color);
-    /* Change the color on hover */
-}
-
-
 .contact {
     display: grid;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin: auto;
     padding: 20px;
+    box-shadow: 0 2px 4px black;
+    margin: 1rem auto;
+
 }
+
 
 .button-link {
     background-color: var(--accent1-color);
@@ -528,13 +505,34 @@ a {
     display: grid;
     justify-content: center;
     align-items: center;
+}
+
+.button-link:hover {
+    color: var(--accent2-color);
+    /* Change the color on hover */
+}
+
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+    padding: 30px;
+    margin: auto;
 
 
 }
 
-.contact button:hover {
-    color: var(--accent1-color);
-    /* Change the color on hover */
+.trip {
+    display: grid;
+    grid-template-columns: 700px 600px 600px;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rosybrown;
+    padding: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: auto;
 }
 
 
@@ -542,16 +540,19 @@ a {
     display: grid;
     justify-content: center;
     align-items: center;
-    padding: 20px;
     border-radius: 10px;
     margin: auto;
-
+    gap: 10px;
+    box-shadow: 0 2px 4px rosybrown;
+    padding: 30px;
 }
 
 .trip p {
     display: block;
     margin: auto;
     text-align: center;
+    box-shadow: 0 2px 4px rosybrown;
+    padding: 20px;
 }
 
 
@@ -575,3 +576,21 @@ a {
     margin: auto;
 }
 
+
+.available-trips table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.available-trips table th {
+    color: black;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rosybrown;
+}
